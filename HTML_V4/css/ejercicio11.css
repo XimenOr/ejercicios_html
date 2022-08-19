@@ -1,0 +1,88 @@
+#tit1 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#F26B6B;
+    font-size: 28px;
+}
+#tit2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#1D85A6;
+    font-size: 28px;
+}
+.dis1 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    color:#8C3041;
+    font-weight: larger;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 1000px;
+    height: 600px;
+    background-color: #F2D5BB;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#header {
+    width: 1000px;
+    height: 200px;
+    background-color:#4B0082;
+}
+
+#enc {
+    position: relative;
+    left: 405px;
+    top: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: #F0FFF0;
+}
+
+#nav {
+    width: 1000px;
+    height: 100px;
+    background-color: #B0E0E6;
+}
+
+#men {
+    position: relative;
+    left: 430px;
+    top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #BC8F8F;
+}
+
+#main {
+    width: 1000px;
+    height: 1000px;
+    background-color: #FDF5E6;
+}
+
+#cue {
+    position: relative;
+    left: 440px;
+    top: 405px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: #953553;
+}
+
+#footer {
+    width: 1000px;
+    height: 70px;
+    background-color:#7FFFD4;
+}
+
+#pie {
+    position: relative;
+    left: 450px;
+    top: 8px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0000FF;
+}

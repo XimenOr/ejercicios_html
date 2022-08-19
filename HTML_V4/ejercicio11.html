@@ -1,0 +1,73 @@
+<!--
+    ENTIDAD: Centro de Biotecnologia Agropecuaria
+    FICHA: 2558346
+    PROGRAMO: Analisis y Desarrollo de Software - ADSO
+    AUTOR: Ivonne Ortiz
+    OBJETIVO: Uso de las etiquetas HTML: h1, table, tr, th, td, h4, caption, a
+    FICHA CREACION:30 de Julio del 2022
+    VERSION: 3.0.0
+    FECHA DE MODIFICACION: 6 de Agosto del 2022
+    VALIDADO EN: W3S
+-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 11</title>
+    <link rel="stylesheet" href="./css/ejercicio11.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1 id="enc">Encabezado</h1>
+      </div>
+      <div id="nav">
+        <h1 id="men">Menu</h1>
+      </div>
+      <div id="main">
+        <h1 id="tit1">Resultado de la búsqueda</h1>
+      <table>
+        <caption id="tit2">Resultado de la búsqueda</caption>
+        <tr class="dis1">
+          <th abbr="imagen del producto" scope="col">imagen</th>
+          <th abbr="datos del producto" scope="col">datos</th>
+        </tr>
+            <tr>
+                <td class="dis1">
+                  <img src="imagenes/portatil.png" alt="Imagen del ordenador portátil" width="200" height="200"/>
+                </td>
+                <td class="dis1">
+            <h4><a href="#" title="Ver más infromación sobre el portátil">Portátil - 3 GHz - 4 GB RAM</a></h4>
+            <p><a href="#" title="Comprar el portátil">Comprar:</a> <del>2.990 &euro;</del><strong>2.599 &euro;</strong></p>
+                </td>
+      </tr>
+      <tr class="dis1">
+            <td><img src="imagenes/videocamara.png" alt="Imagen de la videocámara" width="200" height="200"/></td>   
+            <td>
+              <h4><a href="#" title="Ver más información sobre la videocámara">Videocámara - Alta defición 1080p - 60 GB</a></h4>
+              <p><a href="#" title="Comprar la videocámara">Comprar:</a> <del>1.099 &euro;</del> <strong>999 &euro;</strong></p>
+            </td>
+        </tr>
+      <tr class="dis1">
+              <td><img src="imagenes/tv.png" alt="Imagen del televisor" width="200" height="200"/></td>
+              <td>
+              <h4><a href="#" title="Ver más información sobre el televisor">Televisor - 46" - Full HD</a></h4>
+              <p><a href="" title="Comprar el televisor">Comprar:</a> <del>1.999 &euro;</del> <strong>1.799 &euro;</strong></p>
+            </td>
+        </tr>
+      <tr class="dis1">
+              <td><img src="imagenes/movil.png" alt="Imagen del móvil" width="200" height="200"/></td>
+              <td>
+              <h4><a href="#" title="Ver más información sobre el móvil">Móvil - 3G - Wi-Fi - 8 GB</a></h4>
+              <p><a href="#" title="Comprar el móvil">Comprar:</a> <del>399 &euro;</del> <strong>349 &euro;</strong></p>
+          </td>
+        </tr>
+        </table>
+      </div>
+      <div id="footer">
+          <p id="pie">Ivonne Ortiz Copyrigth @ 2022 Todos los derechos reservados ADSO</p>
+          <p><img src="./imagenes/logoxd.png" title="Imagen del logoxd" width="50" height="50"/></p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!--
+    ENTIDAD: Centro de Biotecnologia Agropecuaria
+    FICHA: 2558346
+    PROGRAMO: Analisis y Desarrollo de Software - ADSO
+    AUTOR: Ivonne Ortiz
+    OBJETIVO: Uso de las etiquetas HTML: h3, form, fieldset, legend, label, select, option, br/, input, form, textarea
+    FICHA CREACION:30 de Julio del 2022
+    VERSION: 3.0.0
+    FECHA DE MODIFICACION: 6 de Agosto del 2022
+    VALIDADO EN: W3S
+-->
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 15</title>
+    <link rel="stylesheet" href="./css/ejercicio15.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <h1 id="enc">Encabezado</h1>
+      </div>
+      <div id="nav">
+        <h1 id="men">Menu</h1>
+      </div>
+      <div id="main">
+          <h3 id="tit1">Información sobre el producto</h3>
+          <form action="/php/insertar_subasta.php" method="post" enctype="multipart/form-data">
+          <fieldset>
+            <legend class="dis1">Datos básicos</legend>
+            <label for="nombre">Nombre</label><br/>
+            <input type="text" name="nombre" id="nombre" size="50" maxlength="250" />
+            <br/><br/>
+            <label for="descripción">Descripción</label><br/>
+            <textarea name="descripción" id="descripción" cols="40" rows="5"></textarea>
+            <br/><br/>
+            Foto <input type="file" name="foto" />
+            <br/><br/>
+            <input name="contador" type="checkbox" value="si" /> Añadir contador de visitas
+          </fieldset>
+          <fieldset>
+            <legend class="dis1">Datos económicos</legend>
+            <label for="precio">Precio</label>
+            <input type="text" size="5" id="precio" name="precio" /> &euro;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="impuestos">Impuestos</label>
+          <select id="impuestos" name="impuestos">
+            <option value="4">4%</option>
+            <option value="7">7%</option>
+            <option value="16">16%</option>
+            <option value="25">25%</option>
+          </select>
+            <br/><br/>
+            <label class="dis1">Promoción</label><br/>
+            <input type="radio" name="promoción" value="ninguno" checked="checked" /> Ninguno <br/>
+            <input type="radio" name="promoción" value="portes" /> Transporte gratuito <br/>
+            <input type="radio" name="promoción" value="descuento" /> Descuento 5%
+          </fieldset>
+          </form>
+      </div>
+      <div id="footer">
+        <p id="pie">Ivonne Ortiz Copyrigth @ 2022 Todos los derechos reservados ADSO</p>
+        <p><img src="./imagenes/logoxd.png" title="Imagen del logoxd" width="50" height="50"/></p>
+      </div>
+    </div>
+  </body>
+</html>
