@@ -10,5 +10,5 @@
 ### :last_quarter_moon: Creación de 4 maquetas 
 ### :moon: Implementación de maquetado a los ejercicios
 ### :waning_crescent_moon: Implementación de copyright
-### :waning_gibbous_moon: Implementación de imagen W3S
-### :last_quarter_moon_with_face: Validado por el software W3S
+### :waning_gibbous_moon: Implementación de imagen W3C
+### :last_quarter_moon_with_face: Validado por el software W3C
